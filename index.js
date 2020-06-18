@@ -15,7 +15,7 @@ function addToCart(item) {
     return Math.floor(Math.random() * Math.floor(max));
   }
   
-  itemObj = {"itemName": item, "itemPrice": getRandomInt(100)} 
+  let itemObj = {"itemName": item, "itemPrice": getRandomInt(100)} 
   
   cart.push(itemObj)
   return `${item} has been added to your cart.`
