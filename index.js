@@ -54,7 +54,7 @@ function total() {
   console.log(cart[1].itemPrice)
   
   for (let i; i < cart.length; i++) {
-    tally = tally + parseInt(cart[i].itemPrice)
+    tally = tally + cart[i].itemPrice
     console.log(cart[i].itemPrice)
   }
   
