@@ -33,6 +33,8 @@ function viewCart() {
     
     if (cart.length === 0) {
       return "Your shopping cart is empty."
+    } else if (cart.length === 1) {
+      
     } else if (i === parseInt(cart.length) - 1) {
       inCart = `${inCart} and ${cart[i].itemName} at \$${cart[i].itemPrice}.`
     } else {
