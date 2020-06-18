@@ -52,7 +52,7 @@ function total() {
   var tally = 0
   
   for (let i; i < cart.length; i++) {
-    cart[i].itemPrice
+    tally = tally + parseInt(cart[i].itemPrice)
   }
 }
 
