@@ -29,7 +29,9 @@ function viewCart() {
   
   for (let i = 0; i < cart.length; i++) {
     
-    if (i === parseInt(cart.length) - 1) {
+    if (cart.length === 0) {
+      return "Your shopping cart is empty."
+    } else if (i === parseInt(cart.length) - 1) {
       inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}.`
     } else {
       inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
