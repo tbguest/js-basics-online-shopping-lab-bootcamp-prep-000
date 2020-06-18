@@ -21,9 +21,9 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
-// console.log(addToCart('juice'))
-// console.log(addToCart('carrots'))
-// console.log(addToCart('berries'))
+console.log(addToCart('juice'))
+console.log(addToCart('carrots'))
+console.log(addToCart('berries'))
 
 function viewCart() {
   
@@ -48,7 +48,7 @@ function viewCart() {
 console.log(viewCart())
 
 function total() {
-  // write your code here
+  
 }
 
 function removeFromCart(item) {
