@@ -22,8 +22,7 @@ function addToCart(item) {
 }
 
 console.log(addToCart('juice'))
-console.log(addToCart('carrots'))
-console.log(addToCart('goji'))
+
 
 
 function viewCart() {
