@@ -30,6 +30,8 @@ function viewCart() {
   for (let i = 0; i < cart.length; i++) {
     inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
   }
+  
+  return inCart
 }
 
 console.log(viewCart())
