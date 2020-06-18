@@ -70,5 +70,5 @@ function removeFromCart(item) {
 console.log(removeFromCart("whack"))
 
 function placeOrder(cardNumber) {
-  
+  if (arguments.length === 0)
 }
