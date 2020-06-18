@@ -28,6 +28,7 @@ function addToCart(item) {
 function viewCart() {
   
   var inCart = "In your cart, you have"
+  console.log(cart.length)
   
   for (let i = 0; i < cart.length; i++) {
     
