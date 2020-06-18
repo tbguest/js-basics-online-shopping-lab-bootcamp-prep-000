@@ -56,7 +56,7 @@ function total() {
     console.log(cart[i].itemPrice)
   }
   
-  return cart[i].itemPrice//tally
+  return cart[i].itemPrice
 }
 
 console.log(total())
