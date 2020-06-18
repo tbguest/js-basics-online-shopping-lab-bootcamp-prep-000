@@ -73,4 +73,5 @@ function placeOrder(cardNumber) {
   if (arguments.length === 0) {
     return "Sorry, we don't have a credit card on file for you."
   }
+  transaction = `Your total cost is \$${total()}, which will be charged to the card ${cardNumber}.`
 }
