@@ -58,7 +58,11 @@ function total() {
 console.log(total())
 
 function removeFromCart(item) {
-  // write your code here
+  if () {
+    
+  } else {
+    return "That item is not in your cart."
+  }
 }
 
 function placeOrder(cardNumber) {
