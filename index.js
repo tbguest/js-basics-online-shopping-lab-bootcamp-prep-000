@@ -28,7 +28,7 @@ function viewCart() {
   var inCart = "In your cart, you have "
   
   for (let i = 0; i < cart.length; i++) {
-    inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i], `;
+    inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
   }
 }
 
