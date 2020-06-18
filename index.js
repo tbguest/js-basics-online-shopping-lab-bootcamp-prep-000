@@ -77,3 +77,6 @@ function placeOrder(cardNumber) {
   cart = []
   return transaction
 }
+
+
+console.log(placeOrder(09854))
