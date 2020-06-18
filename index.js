@@ -24,7 +24,12 @@ function addToCart(item) {
 // console.log(addToCart('juice'))
 
 function viewCart() {
-  // write your code here
+  
+  var inCart = []
+  
+  for (let i = 0; i < cart.length; i++) {
+    
+  }
 }
 
 function total() {
