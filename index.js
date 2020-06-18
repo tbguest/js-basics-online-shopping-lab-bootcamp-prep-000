@@ -49,7 +49,7 @@ console.log(viewCart())
 
 function total() {
   
-  tally = 0
+  let tally = 0
   
   for (let i; i < cart.length; i++) {
     cart[i].itemPrice
