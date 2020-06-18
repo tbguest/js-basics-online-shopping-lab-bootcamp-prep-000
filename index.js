@@ -28,7 +28,12 @@ function viewCart() {
   var inCart = "In your cart, you have "
   
   for (let i = 0; i < cart.length; i++) {
-    inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
+    
+    if (i === parseInt(cart.length) - 1) {
+      inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}.`
+    } else {
+      inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
+    }
   }
   
   return inCart
