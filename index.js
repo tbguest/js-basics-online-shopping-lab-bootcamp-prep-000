@@ -10,7 +10,14 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  itemObj = {"itemName": item, "itemPrice": Math.random} 
+  
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+  
+  itemObj = {"itemName": item, "itemPrice": getRandomInt(100)} 
+  
+  cart.push(itemObj)
 }
 
 function viewCart() {
