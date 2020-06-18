@@ -21,6 +21,8 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
+console.log(addToCart('juice'))
+
 function viewCart() {
   // write your code here
 }
