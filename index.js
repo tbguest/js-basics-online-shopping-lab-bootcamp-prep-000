@@ -27,15 +27,15 @@ function addToCart(item) {
 
 function viewCart() {
   
-  var inCart = "In your cart, you have"
-  console.log(cart.length)
+  if (cart.length === 0) {
+    return "Your shopping cart is empty."
+  }
   
+  var inCart = "In your cart, you have"
+
   for (let i = 0; i < cart.length; i++) {
     
-    if (cart.length === 0) {
-      // return "Your shopping cart is empty."
-      inCart = "Your shopping cart is empty."
-    } else if (cart.length === 1) {
+    if (cart.length === 1) {
       inCart = `${inCart} ${cart[i].itemName} at \$${cart[i].itemPrice}.`
     } else if (i === parseInt(cart.length) - 1) {
       inCart = `${inCart} and ${cart[i].itemName} at \$${cart[i].itemPrice}.`
