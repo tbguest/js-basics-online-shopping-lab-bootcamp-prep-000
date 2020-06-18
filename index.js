@@ -35,7 +35,7 @@ function viewCart() {
     } else if (i === parseInt(cart.length) - 1) {
       inCart = `and ${inCart} ${cart[i].itemName} at \$${cart[i].itemPrice}.`
     } else {
-      inCart = `${inCart} ${cart.itemName[i]} at \$${cart.itemPrice[i]}, `
+      inCart = `${inCart} ${cart[i].itemName} at \$${cart[i].itemPrice}, `
     }
   }
   
