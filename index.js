@@ -58,6 +58,8 @@ function total() {
   return tally
 }
 
+console.log(total())
+
 function removeFromCart(item) {
   // write your code here
 }
