@@ -79,4 +79,4 @@ function placeOrder(cardNumber) {
 }
 
 
-console.log(placeOrder(09854))
+console.log(placeOrder(9854))
