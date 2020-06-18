@@ -51,7 +51,7 @@ function total() {
   
   var tally = 0
   
-  console.log(cart[1].itemPrice)
+  console.log(cart[2].itemPrice)
   
   for (let i; i < cart.length; i++) {
     tally = tally + cart[i].itemPrice
