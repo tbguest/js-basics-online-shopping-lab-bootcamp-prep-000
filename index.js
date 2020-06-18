@@ -43,7 +43,6 @@ function viewCart() {
   return inCart
 }
 
-console.log(viewCart())
 
 function total() {
   var tally = 0
@@ -53,7 +52,6 @@ function total() {
   return tally
 }
 
-console.log(total())
 
 function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
@@ -65,7 +63,6 @@ function removeFromCart(item) {
   return "That item is not in your cart."
 }
 
-console.log(removeFromCart("whack"))
 
 function placeOrder(cardNumber) {
   if (arguments.length === 0) {
@@ -75,6 +72,3 @@ function placeOrder(cardNumber) {
   cart = []
   return transaction
 }
-
-
-console.log(placeOrder(98598764))
