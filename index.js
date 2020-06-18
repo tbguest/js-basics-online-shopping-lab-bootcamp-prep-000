@@ -58,8 +58,8 @@ function total() {
 console.log(total())
 
 function removeFromCart(item) {
-  if () {
-    
+  if (item in cart.itemName) {
+    cart.splice
   } else {
     return "That item is not in your cart."
   }
